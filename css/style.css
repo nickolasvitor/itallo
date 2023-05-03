@@ -9,9 +9,30 @@
     margin-top: 0px;
     padding-top: 0px;
     min-height: 700px;
+    transform: translate(0px,700px);
+}
+
+@media(max-width:765px) {
+    .py-vh-5 {
+        padding-top: 4vh !important;
+        padding-bottom: 12vh;
+    }
+    .inicio{
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(0,0,0,0.1) !important;
+        position: absolute !important;
+        margin-top: 0px;
+        padding-top: 0px;
+        min-height: 700px;
+        transform: translate(0px,0px);
+    }
 }
 .foto-perfil{
-    width: 30.45%;
+    width: 100%;
     z-index: 0;
     margin-top: 0px;
 }
@@ -164,3 +185,7 @@
 .identidade{
 width: 100%;
 }}
+.py-vh-5 {
+    padding-top: 10vh;
+    padding-bottom: 12vh;
+}
