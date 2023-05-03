@@ -191,6 +191,6 @@ width: 100%;
 }
 
 .py-vh-4 {
-    padding-top: 2vh !important;
+    padding-top: 0vh !important;
     padding-bottom: 9vh;
 }
