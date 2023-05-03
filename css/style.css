@@ -197,3 +197,12 @@ width: 100%;
 .overflow-hidden {
     overflow: visible !important;
 }
+
+.fonte {
+    font-size: calc(1.00rem + .1vw)!important;
+}
+
+@media (min-width: 1200px){
+.fonte {
+    font-size: calc(1.5rem)!important;
+}}
